@@ -1,0 +1,51 @@
+game count: 24
+there is a game for year 1989: True
+there is a game for year 1995: True
+there is a game for year 1997: True
+there is a game for year 1998: True
+there is a game for year 1999: True
+there is a game for year 2000: True
+there is a game for year 2002: True
+there is a game for year 2004: True
+there is a game for year 2005: True
+there is a game for year 2006: True
+there is a game for year 2007: True
+there is a game for year 2009: True
+there is a game for year 2010: True
+there is a game for year 2011: True
+there is a game for year 2012: True
+latest game: Diablo III
+there number of games in genre Sandbox is: 1
+there number of games in genre Real-time strategy is: 7
+there number of games in genre Survival game is: 1
+there number of games in genre First-person shooter is: 6
+there number of games in genre Simulation is: 3
+there number of games in genre Action-adventure is: 1
+there number of games in genre RPG is: 5
+the title "Guild Wars" is in the 12. line
+the title "Garry's Mod" is in the 9. line
+the title "Half-Life" is in the 10. line
+the title "The Sims 3" is in the 11. line
+the title "World of Warcraft" is in the 2. line
+the title "Half-Life 2" is in the 5. line
+the title "Populous" is in the 16. line
+the title "Diablo II" is in the 15. line
+the title "The Sims" is in the 7. line
+the title "Warcraft III: Reign of Chaos" is in the 23. line
+the title "Age of Empires" is in the 20. line
+the title "Minecraft" is in the 1. line
+the title "Counter-Strike: Condition Zero" is in the 24. line
+the title "The Sims 2" is in the 13. line
+the title "StarCraft II: Wings of Liberty" is in the 14. line
+the title "StarCraft" is in the 8. line
+the title "Counter-Strike" is in the 6. line
+the title "EverQuest" is in the 19. line
+the title "Crysis" is in the 22. line
+the title "Warhammer 40,000: Dawn of War (including expansions)" is in the 17. line
+the title "Terraria" is in the 3. line
+the title "Command & Conquer" is in the 21. line
+the title "Diablo III" is in the 4. line
+the title "Doom 3" is in the 18. line
+titles in alphabetical order: ['Age of Empires', 'Command & Conquer', 'Counter-Strike', 'Counter-Strike: Condition Zero', 'Crysis', 'Diablo II', 'Diablo III', 'Doom 3', 'EverQuest', "Garry's Mod", 'Guild Wars', 'Half-Life', 'Half-Life 2', 'Minecraft', 'Populous', 'StarCraft', 'StarCraft II: Wings of Liberty', 'Terraria', 'The Sims', 'The Sims 2', 'The Sims 3', 'Warcraft III: Reign of Chaos', 'Warhammer 40,000: Dawn of War (including expansions)', 'World of Warcraft']
+the genres are: ['Action-adventure', 'First-person shooter', 'Real-time strategy', 'RPG', 'Sandbox', 'Simulation', 'Survival game']
+the top sold FPS release date is: 1999
