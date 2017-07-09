@@ -1,5 +1,5 @@
 import math
-
+import csv
 # Report functions
 
 '''What is the title of the most played game?
@@ -91,11 +91,12 @@ An example return value: ["Minecraft", 23, 2009, "Survival game", Microsoft].'''
 
 def get_game(file_name, title):
     with open(file_name, 'r') as file:
-        for line in file:
-            line = line.strip("\n")
-            game_properties = line.split('\t')
+        reader = csv.reader(file, delimiter="\t")
+        game_properties_list =map(lambda row: (row[0], float(row[1]), int(row[2]), row[3], row[4]), reader)
+
+        for game_properties in game_properties_list:
             if game_properties[0] == title:
-                return game_properties
+                return list(game_properties)
 
 
 '''How many games are there grouped by genre?
