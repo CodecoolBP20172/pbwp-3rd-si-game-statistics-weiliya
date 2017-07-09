@@ -15,11 +15,11 @@ def count_games(file_name):
 #Is there a game for a given year?
 def decide(file_name, year):
     with open(file_name, 'r') as file:
-        '''for line in file:
+        for line in file:
             column = line.split("\t")
             if(int(column[2]) == year):
-                return True'''
-        list_of_games = [line.split("\t") for line in file] #if line[2] == year]
+                return True
+    #    list_of_games = [line.split("\t") for line in file] #if line[2] == year]
 
 
 #Which was the latest game?
