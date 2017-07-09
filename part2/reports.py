@@ -1,3 +1,4 @@
+import math
 
 # Report functions
 
@@ -61,6 +62,7 @@ def count_longest_title(file_name):
             column = line.split("\t")
             titles.append(column[0])
             clt = len(max(titles, key=len))
+        
         return clt
 
 '''What is the average of the release dates?
@@ -69,8 +71,15 @@ Expected output of the function: average year (number)
 Other expectation: the return value must be the rounded up average'''
 
 def get_date_avg(file_name):
-    av_year = 0
+    years = list()
+    with open(file_name, 'r') as file:
+        for line in file:
+            column = line.split("\t")
+            years.append(int(column[2]))
+            
+    round_year = sum(years)/len(years)
 
+    return math.ceil(round_year)
 
 
 '''What properties has a game?
@@ -80,8 +89,13 @@ Details: the function get a parameter named game. This is the title of the game 
 The function return a list of the properties of this game including the title.
 An example return value: ["Minecraft", 23, 2009, "Survival game", Microsoft].'''
 
-def get_name(file_name, title):
-    item_prop = list()
+def get_game(file_name, title):
+    with open(file_name, 'r') as file:
+        for line in file:
+            line = line.strip("\n")
+            game_properties = line.split('\t')
+            if game_properties[0] == title:
+                return game_properties
 
 
 '''How many games are there grouped by genre?
@@ -91,7 +105,15 @@ Detailed description: return a dictionary where each genre is associated with th
 
 def count_grouped_by_genre(file_name):
     genre_dict = {}
+    with open(file_name, 'r') as file:
+        for line in file:
+            column = line.split("\t")
+            if column[3] in genre_dict:
+                genre_dict[column[3]] += 1
+            else:
+                genre_dict[column[3]] = 1
 
+    return genre_dict
 
 '''What is the date ordered list of the games?
 Expected name of the function: get_date_ordered(file_name)
@@ -100,4 +122,12 @@ Other expectation: The secondary ordering rule is the alphabetical ordering of t
 So if there are titles from the same year, you need to order them alphabetically in ascending order.'''
 
 def get_date_ordered(file_name):
-    pass
+    titles = list()
+    with open(file_name, 'r') as file:
+        for line in file:
+            row = line.strip("\n").split("\t")
+            titles.append(row)
+    
+    titles = sorted(titles, key=lambda title: title[0])
+    titles = sorted(titles, key=lambda title: title[2], reverse = True)
+    return list(map(lambda title: title[0], titles))
