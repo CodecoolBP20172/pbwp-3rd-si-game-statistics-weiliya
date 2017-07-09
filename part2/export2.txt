@@ -1,0 +1,30 @@
+The most played game is: Minecraft
+All copies sold: 187.16
+Digits of the longest title: 52
+The average release date of games: 2003
+The properties of "Counter-Strike" are: ['Counter-Strike', 12.5, 1999, 'First-person shooter', 'Valve Corporation']
+The properties of "Terraria" are: ['Terraria', 12.0, 2011, 'Action-adventure', 'Re-Logic']
+The properties of "Warcraft III: Reign of Chaos" are: ['Warcraft III: Reign of Chaos', 3.0, 2002, 'Real-time strategy', 'Blizzard Entertainment']
+The properties of "The Sims 3" are: ['The Sims 3', 7.72, 2009, 'Simulation', 'Electronic Arts']
+The properties of "Counter-Strike: Condition Zero" are: ['Counter-Strike: Condition Zero', 2.9, 2004, 'First-person shooter', 'Valve Corporation']
+The properties of "Populous" are: ['Populous', 4.0, 1989, 'Real-time strategy', 'Electronic Arts']
+The properties of "Crysis" are: ['Crysis', 3.0, 2007, 'First-person shooter', 'Electronic Arts']
+The properties of "EverQuest" are: ['EverQuest', 3.5, 1999, 'RPG', 'Sony Online Entertainment']
+The properties of "StarCraft II: Wings of Liberty" are: ['StarCraft II: Wings of Liberty', 6.0, 2010, 'Real-time strategy', 'Blizzard Entertainment']
+The properties of "Garry's Mod" are: ["Garry's Mod", 10.0, 2006, 'Sandbox', 'Facepunch Studios']
+The properties of "Minecraft" are: ['Minecraft', 23.0, 2009, 'Survival game', 'Microsoft']
+The properties of "StarCraft" are: ['StarCraft', 11.0, 1998, 'Real-time strategy', 'Blizzard Entertainment']
+The properties of "Half-Life" are: ['Half-Life', 9.3, 1998, 'First-person shooter', 'Valve Corporation']
+The properties of "Command & Conquer" are: ['Command & Conquer', 3.0, 1995, 'Real-time strategy', 'Virgin Interactive']
+The properties of "The Sims 2" are: ['The Sims 2', 6.0, 2004, 'Simulation', 'Electronic Arts']
+The properties of "Guild Wars" are: ['Guild Wars', 6.5, 2005, 'RPG', 'NCsoft']
+The properties of "Diablo II" are: ['Diablo II', 4.0, 2000, 'RPG', 'Blizzard Entertainment']
+The properties of "World of Warcraft" are: ['World of Warcraft', 14.0, 2004, 'RPG', 'Blizzard Entertainment']
+The properties of "Age of Empires" are: ['Age of Empires', 3.0, 1997, 'Real-time strategy', 'Microsoft']
+The properties of "The Sims" are: ['The Sims', 11.24, 2000, 'Simulation', 'Electronic Arts']
+The properties of "Diablo III" are: ['Diablo III', 12.0, 2012, 'RPG', 'Blizzard Entertainment']
+The properties of "Warhammer 40,000: Dawn of War (including expansions)" are: ['Warhammer 40,000: Dawn of War (including expansions)', 4.0, 2004, 'Real-time strategy', 'Relic Entertainment']
+The properties of "Half-Life 2" are: ['Half-Life 2', 12.0, 2004, 'First-person shooter', 'Valve Corporation']
+The properties of "Doom 3" are: ['Doom 3', 3.5, 2004, 'First-person shooter', 'Activision']
+Games grouped by genre: {'RPG': 5, 'Sandbox': 1, 'Simulation': 3, 'Survival game': 1, 'Real-time strategy': 7, 'Action-adventure': 1, 'First-person shooter': 6}
+Date ordered list of the games: ['Diablo III', 'Terraria', 'StarCraft II: Wings of Liberty', 'Minecraft', 'The Sims 3', 'Crysis', "Garry's Mod", 'Guild Wars', 'Counter-Strike: Condition Zero', 'Doom 3', 'Half-Life 2', 'The Sims 2', 'Warhammer 40,000: Dawn of War (including expansions)', 'World of Warcraft', 'Warcraft III: Reign of Chaos', 'Diablo II', 'The Sims', 'Counter-Strike', 'EverQuest', 'Half-Life', 'StarCraft', 'Age of Empires', 'Command & Conquer', 'Populous']
